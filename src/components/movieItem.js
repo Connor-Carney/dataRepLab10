@@ -5,12 +5,12 @@ export class MovieItem extends React.Component {
     render() {
         return (
             <div>
-                {// Unorganised view of the Movie's Title, Image and Year}
-                {/* <h4>{this.props.movie.Title}</h4>
+                {/* Unorganised view of the Movie's Title, Image and Year}
+                { <h4>{this.props.movie.Title}</h4>
                 <p>{this.props.movie.Year}</p>
-                <img src={this.props.movie.Poster} width="200" height="200"></img> */}
+                <img src={this.props.movie.Poster} width="200" height="200"></img> }
 
-                {// Organised view of the Movie's Title, Image and Year}
+                {Organised view of the Movie's Title, Image and Year*/}
                 <Card>
                     <Card.Header>{this.props.movie.Title}</Card.Header>
                     <Card.Body>

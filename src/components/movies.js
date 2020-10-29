@@ -3,8 +3,8 @@ import {MovieItem} from './movieItem';
 
 export class Movies extends React.Component{
     render () {
-        {// Maps the variable movie from movieItem for display}
-        return this.props.movies.map((movie)=>{
+        {/* Maps the variable movie from movieItem for display*/}
+            return this.props.movies.map((movie)=>{
             return <MovieItem movie={movie}></MovieItem>
         })
     }
