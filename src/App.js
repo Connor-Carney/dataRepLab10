@@ -10,6 +10,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Read } from './components/read';
 import { Create } from './components/create';
+import { Edit } from './components/edit';
 
 class App extends Component {
   render() {
@@ -30,8 +31,9 @@ class App extends Component {
           {/* Switch statement for changing components in the navbar */}
           <Switch>
             <Route path='/' component={Content} exact />
-            <Route path='/create' component={Create} exact />
-            <Route path='/read' component={Read} exact />
+            <Route path='/create' component={Create} />
+            <Route path='/read' component={Read} />
+            <Route path='/edit/:id' component={Edit} />
           </Switch>
         </div>
       </Router>
