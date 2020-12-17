@@ -112,7 +112,7 @@ export class Edit extends React.Component {
                     <div className='form-group'>
                         <input type='Submit'
                             value='Edit Movie'
-                            className='btn btn-danger'></input>
+                            className='btn btn-primary'></input>
                     </div>
                 </form>
             </div>

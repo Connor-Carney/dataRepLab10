@@ -2,10 +2,9 @@ import React from 'react';
 import {MovieItem} from './movieItem';
 
 export class Movies extends React.Component{
-    render () {
-        {/* Maps the variable movie from movieItem for display*/}
+    render() {
             return this.props.movies.map((movie)=>{
-            return <MovieItem movie={movie}></MovieItem>
+            return <MovieItem movie={movie} ReloadData={this.props.ReloadData}></MovieItem>
         })
     }
 }
